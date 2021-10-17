@@ -1,0 +1,25 @@
+body{
+   background-color: #FEAFC3;
+}
+.image-round{
+    border-radius: 50% 50%;
+}
+.advantages-outer{
+    background: url(../img/main/advantages/waffle.jpg);
+}
+.advantages-inner{
+   background: white;
+}
+.blog-info{
+    background: url(../img/main/blog-info/background.jpg) no-repeat;
+}
+.mailing-info{
+   background: url(../img/main/mailing/background.jpg) no-repeat;
+}
+.delivery{
+    background: url(../img/main/delivery/background.jpg) no-repeat;
+}
+.contacts{
+    background: url(../img/main/contacts/background.jpg) no-repeat;
+
+}

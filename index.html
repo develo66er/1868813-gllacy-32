@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Магазин Глэйси</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
       Магазин Глэйси
     </h1>
     <a href="index.html" class="main-header-logo">
-      <img src="#" alt="Лого для магазина Глэйси">
+      <img src="img/header/logo.svg" alt="Лого для магазина Глэйси" width="137" height="56">
     </a>
     <nav class="navigation">
       <ul class="navigation-list">
@@ -40,20 +41,20 @@
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
           <a href="#" class="navigation-link">
-            <span class="visually-hidden">
-              Поиск
-            </span>
+            <img src="img/header/search.svg" alt="Поиск" width="18" height="18"> 
           </a>
         </li>
         <li class="navigation-item">
           <a href="#" class="navigation-link">
+            <img src="img/header/log-in.svg" alt="Вход" width="18" height="18">
             <span class="login">
               Вход
             </span>
-          </a>
+           </a>
         </li>
         <li class="navigation-item">
           <a href="#" class="navigation-link cart-info">
+            <img src="img/header/cart.svg" alt="Корзина" width="18" height="18">
             <span class="cart">
               Пусто
             </span>
@@ -81,17 +82,26 @@
           <button class="product-button">
             Заказать
           </button>
-          <div>
-            <img src="#" class="gallery-photo-big" alt="Большое изображение мороженного">
+          <button class="gallery-arrow-left-button">
+            <img src="img/main/gallery/arrow-left.svg" alt="Прокрутить влево"  width="38" height="38">
+          </button>
+          <div class="ice-cream-background-big">
+            <img src="img/main/gallery/ice-cream-big.png"gallery-photo-big" alt="Большое изображение мороженного" width="306" height="507">
+          </div>
+          <button class="gallery-arrow-right-button">
+            <img src="img/main/gallery/arrow-right.svg" alt="Прокрутить вправо"  width="38" height="38">
+          </button>
+          
+        </li>
+        <li class="gallery-product-item">
+          <div class="ice-cream-background-small">
+            <img src="img/main/gallery/ice-cream-small-1.png" class="gallery-photo-small" alt="Маленькое изображение мороженного" width="66" height="150">
           </div>
         </li>
         <li class="gallery-product-item">
-          <div>
-            <img src="#" class="gallery-photo-small" alt="Маленькое изображение мороженного">
+          <div class="ice-cream-background-small">
+            <img src="img/main/gallery/ice-cream-small-2.png" class="gallery-photo-small" alt="Маленькое изображение мороженного" width="66" height="150">
           </div>
-        </li>
-        <li class="gallery-product-item">
-          <img src="#" class="gallery-photo-small" alt="Маленькое изображение мороженного">
         </li>
       </ol>
       <ol class="gallery-bullets-list">
@@ -99,34 +109,23 @@
         <li class="bullet-item">
         <li class="bullet-item">
       </ol>
-      <button class="gallery-arrow-left-button">
-        <img src="#" alt="Прокрутить влево">
-      </button>
-      <button class="gallery-arrow-right-button">
-        <img src="#" alt="Прокрутить вправо">
-      </button>
+     
 
       <!--поделиться в социальных сетях - повторно используемый список-->
       <ul class="social-list">
         <li class="social-item">
           <a href="https://vk.com/htmlacademy" class="social-link vk-link">
-            <span class="visually-hidden">
-              VK
-            </span>
+            <img src="img/common/vk.svg" alt="VK" width="24" height="24">
           </a>
         </li>
         <li class="social-item">
           <a href="https://www.facebook.com/htmlacademy" class="social-link facebook-link">
-            <span class="visually-hidden">
-              Facebook
-            </span>
+            <img src="img/common/facebook.svg" alt="Facebook" width="24" height="24">
           </a>
         </li>
         <li class="social-item">
           <a href="https://www.instagram.com/htmlacademy/" class="social-link instagram-link">
-            <span class="visually-hidden">
-              Instagram
-            </span>
+            <img src="img/common/instagram.svg" alt="Instagram" width="24" height="24">
           </a>
         </li>
       </ul>
@@ -148,6 +147,7 @@
           <button class="product-button">
             Хочу подарок
           </button>
+          <img src="img/main/promo/raspberries.png" alt="Фото малинки в стаканчике" width="181" height="258">
         </li>
         <li class="promo-item">
           <h3 class="promo-item-header">
@@ -159,6 +159,7 @@
           <button class="product-button">
             Хочу подарок
           </button>
+          <img src="img/main/promo/marshmallow.png" alt="Фото зефирок в стаканчике" width="232" height="258">
         </li>
       </ul>
     </section>
@@ -170,7 +171,7 @@
       </h2>
       <ul class="product-list">
         <li class="product-item">
-          <img src="#" alt="Фото малинового мороженного" class="product-item-image image-round">
+          <img src="img/main/bestsellers/raspberries.jpg" alt="Фото малинового мороженного" class="product-item-image image-round" width="168" height="168">
           <h3 class="product-item-title">
             Малинка
           </h3>
@@ -189,8 +190,8 @@
             </span>
           </button>
         </li>
-        <li class="product-item">
-          <img src="#" alt="Фото фисташкового мороженного" class="product-item-image image-round">
+        <li class="product-item"> 
+          <img src="img/main/bestsellers/pistachio.jpg" alt="Фото фисташкового мороженного" class="product-item-image image-round" width="168" height="168">
           <h3 class="product-item-title">
             Фисташка
           </h3>
@@ -210,7 +211,7 @@
           </button>
         </li>
         <li class="product-item">
-          <img src="#" alt="Фото черничного мороженного" class="product-item-image image-round">
+          <img src="img/main/bestsellers/blueberry.jpg" alt="Фото черничного мороженного" class="product-item-image image-round" width="168" height="168">
           <h3 class="product-item-title">
             Черника
           </h3>
@@ -230,7 +231,7 @@
           </button>
         </li>
         <li class="product-item">
-          <img src="#" alt="Фото ванильного мороженного" class="product-item-image image-round">
+          <img src="img/main/bestsellers/bubble-gum.jpg" alt="Фото ванильного мороженного" class="product-item-image image-round" width="168" height="168">
           <h3 class="product-item-title">
             Бабл-гам
           </h3>
@@ -252,41 +253,45 @@
       </ul>
     </section>
     <section class="advantages">
-      <h2 class="advantages-header">
-        Магазин Глэйси – это онлайн и офлайн-магазин по продаже
-        <br>
-        мороженого собственного проиводства на развес
-      </h2>
-      <ul class="advantages-list">
-        <li class="advantages-item">
-          <img src="#" class="ice-cream-icon image-round" alt="иконка с изображением мороженного">
-          <p class="advantages-description">
-            Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и
-            проверенных временем технологий.
-          </p>
-        </li>
-        <li class="advantages-item">
-          <img src="#" class="leaf-icon image-round" alt="иконка с изображением листика">
-          <p class="advantages-description">
-            Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты и добавки
-            произведены из натурального сырья.
-          </p>
-        </li>
-        <li class="advantages-item">
-          <img src="#" class="cow-icon image-round" alt="иконка с изображением коровьей головы">
-          <p class="advantages-description">
-            Закупка ингредиентов производится только у проверенных фермерских хозяйств, с которыми нас связывает
-            долговременное сотрудничество.
-          </p>
-        </li>
-        <li class="advantages-item">
-          <img src="#" class="termopack-icon image-round" alt="иконка с изображением термопака">
-          <p class="advantages-description">
-            Доставка нашего мороженого осуществляется в специальном термопаке, который не дает мороженому растаять и
-            позволяет сохранить превосходный вкус.
-          </p>
-        </li>
-      </ul>
+      <div class="advantages-outer">
+        <div class="advantages-inner">
+          <h2 class="advantages-header">
+            Магазин Глэйси – это онлайн и офлайн-магазин по продаже
+            <br>
+            мороженого собственного проиводства на развес
+          </h2>
+          <ul class="advantages-list">
+            <li class="advantages-item">
+              <img src="img/main/advantages/ice-cream.svg" class="ice-cream-icon image-round" alt="иконка с изображением мороженного" width="48" height="48">
+              <p class="advantages-description">
+                Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и
+                проверенных временем технологий.
+              </p>
+            </li>
+            <li class="advantages-item">
+              <img src="img/main/advantages/leaf.svg" class="leaf-icon image-round" alt="иконка с изображением листика"  width="48" height="48">
+              <p class="advantages-description">
+                Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты и добавки
+                произведены из натурального сырья.
+              </p>
+            </li>
+            <li class="advantages-item">
+              <img src="img/main/advantages/cow.svg" class="cow-icon image-round" alt="иконка с изображением коровьей головы" width="48" height="48">
+              <p class="advantages-description">
+                Закупка ингредиентов производится только у проверенных фермерских хозяйств, с которыми нас связывает
+                долговременное сотрудничество.
+              </p>
+            </li>
+            <li class="advantages-item">
+              <img src="img/main/advantages/thermometer.svg" class="termopack-icon image-round" alt="иконка с изображением термопака" width="48" height="48">
+              <p class="advantages-description">
+                Доставка нашего мороженого осуществляется в специальном термопаке, который не дает мороженому растаять и
+                позволяет сохранить превосходный вкус.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
     <article class="blog-info">
       <h2 class="info-header">
@@ -296,11 +301,11 @@
         10 способов сервировки фруктовых щербетов к столу
       </a>
     </article>
-    <article class="mailing">
+    <article class="mailing-info">
       <h2 class="visually-hidden">
         Подписка на рассылку
       </h2>
-      <p class="mailing-info">
+      <p class="mailing">
         Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит.
         Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)
       </p>
@@ -379,24 +384,18 @@
       </h2>
       <ul class="social-list">
         <li class="social-item">
-          <a href="https://vk.com/htmlacademy" class="social-link">
-            <span class="visually-hidden">
-              VK
-            </span>
+          <a href="https://vk.com/htmlacademy" class="social-link vk-link">
+            <img src="img/common/vk.svg" alt="VK" width="24" height="24">
           </a>
         </li>
         <li class="social-item">
-          <a href="https://www.facebook.com/htmlacademy" class="social-link">
-            <span class="visually-hidden">
-              Facebook
-            </span>
+          <a href="https://www.facebook.com/htmlacademy" class="social-link facebook-link">
+            <img src="img/common/facebook.svg" alt="Facebook" width="24" height="24">
           </a>
         </li>
         <li class="social-item">
-          <a href="https://www.facebook.com/htmlacademy" class="social-link">
-            <span class="visually-hidden">
-              Instagram
-            </span>
+          <a href="https://www.instagram.com/htmlacademy/" class="social-link instagram-link">
+            <img src="img/common/instagram.svg" alt="Instagram" width="24" height="24">
           </a>
         </li>
       </ul>
@@ -407,6 +406,7 @@
       </h2>
       <ol class="documentation-list">
         <li class="documentation-item">
+          <img src="img/footer/heart.svg" alt="сердечко" width="16" height="16">
           <a href="#" class="documentation-link active-link">
             Для поставщиков
           </a>
@@ -433,12 +433,7 @@
         Права собственности
       </h2>
       <a href="https://htmlacademy.ru/" class="copyright-link">
-        <svg>
-          <text>
-            .html
-            academy
-          </text>
-        </svg>
+       <img src="img/footer/logo.svg" alt="logo htmlacademy" width="93" height="27">
       </a>
       <p>
         Сделано в
