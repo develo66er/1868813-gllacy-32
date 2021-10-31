@@ -1,25 +1,146 @@
 body{
    background-color: #FEAFC3;
+   font-size: 16px;
 }
-.image-round{
-    border-radius: 50% 50%;
+.visually-hidden{
+    display: none;
 }
-.advantages-outer{
-    background: url(../img/main/advantages/waffle.jpg);
+.slider-button{
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background-position: 50% 50%;
+    background-size: 38px 38px;
+}
+.arrow-left-button{
+    background: url(../img/icons/arrow-left.svg) no-repeat;
+}
+.arrow-right-button{
+    background: url(../img/icons/arrow-right.svg) no-repeat;
+}
+.social-link{
+    display: block;
+    width: 38px;
+    height: 38px;
+}
+
+.vk{
+    background: url(../img/icons/vk.svg) no-repeat;
+}
+.facebook{
+    background: url(../img/icons/facebook.svg) no-repeat;
+}
+.instagram{
+    background: url(../img/icons/instagram.svg) no-repeat;
+}
+.promo-item{
+    width: 570px;
+    height: 268px;
+    border-radius: 15px;
+}
+.raspberries-item{
+    background: url(../img/rasberries.png) no-repeat;
+    background-position: 95% 130%;
+    background-color:#FF7799;
+
+}
+.marshmallow-item{
+    background: url(../img/marshmallow.png) no-repeat;
+    background-size: 232px 249px;
+    background-position: 95% 130%;
+    background-color:#FF7799;
+}
+.add-to-cart-button{
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/icons/cart_red.svg);
+    background-position: 50% 50%;
+    background-size: 32px 32px;
+    border: none;
+    border-radius: 50%;
+}
+.advantages{
+    border-radius: 15px;
+    width: 1170px;
 }
 .advantages-inner{
-   background: white;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.759);
+    border-radius: 15px;
+}
+.advantages-description{
+    background-position: 0px 50%;
+    padding-left: 50px;
+}
+.ice-cream{
+    background: url(../img/icons/ice-cream.svg) no-repeat;
+}
+.leaf{
+    background: url(../img/icons/leaf.svg) no-repeat;
+
+}
+.cow{
+    background: url(../img/icons/cow.svg) no-repeat; 
+}
+.thermometer{
+    background: url(../img/icons/thermometer.svg) no-repeat; 
 }
 .blog-info{
-    background: url(../img/main/blog-info/background.jpg) no-repeat;
+    background: white url(../img/backgrounds/blog-info-background.jpg) no-repeat; 
+    background-position:  100% 0%;
+    background-size: 570px 220px;
+    border-radius: 15px;
+    width: 570px;
+    height: 220px;
 }
 .mailing-info{
-   background: url(../img/main/mailing/background.jpg) no-repeat;
+    background-image: url(../img/backgrounds/mailing-background.png) ;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 570px;
+    height: 220px;
+}
+.mailing-info-inner{
+    background-color:white;
+    background-position: 16px 16px;
+    border-radius: 15px;
+    width: 558px;
+    height: 208px;
 }
 .delivery{
-    background: url(../img/main/delivery/background.jpg) no-repeat;
+    background: white url(../img/backgrounds/delivery-background.jpg) no-repeat; 
+    background-position:  100% 0%;
+    background-size: 1170px 534px;
+    border-radius: 15px;
+    width: 1170px;
+    height: 534px; 
 }
 .contacts{
-    background: url(../img/main/contacts/background.jpg) no-repeat;
+    background: white url(../img/backgrounds/contacts-background.jpg) no-repeat; 
+    background-position:  100% 0%;
+    background-size: 1170px 492px;
+    border-radius: 15px;
+    width: 1170px;
+    height: 492px; 
+}
+.documentation-link-active{
+    background-position: 0px 50%;
+    padding-left: 16px;
+    background: url(../img/icons/heart.svg) no-repeat; 
 
+}
+.has-next{
+    display: inline-block;
+    padding: 5px;
+    background: url(../img/icons/chevrons-right.svg) no-repeat; 
+}
+.breadcrumbs-link{
+    display: inline-block;
+    height: 12px;
+}
+.arrow-down{
+    display: inline-block;
+    padding: 6px;
+    background: url(../img/icons/arrow-down.svg) no-repeat; 
 }
